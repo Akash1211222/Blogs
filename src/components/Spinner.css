@@ -1,0 +1,45 @@
+
+.progress {
+    position: relative;
+    width: 89.6px;
+    height: 89.6px;
+    border-radius: 50%;
+    border: 4.5px solid #e68847;
+    box-sizing: content-box;
+ }
+ 
+ .progress:before {
+    content: "";
+    position: absolute;
+    width: 4.5px;
+    height: 38.1px;
+    top: 9px;
+    left: 42.6px;
+    background: #e68847;
+    border-radius: 2.2px;
+    transform-origin: 2.25px 37px;
+    animation: progress-t59zy9 2s linear infinite;
+ }
+ 
+ .progress:after {
+    content: "";
+    position: absolute;
+    width: 4.5px;
+    height: 24.6px;
+    top: 22.4px;
+    left: 42.6px;
+    background: #e68847;
+    border-radius: 2.2px;
+    transform-origin: 2.25px 23.5px;
+    animation: progress-t59zy9 12s linear infinite;
+ }
+ 
+ @keyframes progress-t59zy9 {
+    0% {
+       tranform: rotate(0deg);
+    }
+ 
+    100% {
+       transform: rotate(360deg);
+    }
+ }
