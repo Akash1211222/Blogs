@@ -4,7 +4,7 @@
     width: 89.6px;
     height: 89.6px;
     border-radius: 50%;
-    border: 4.5px solid #e68847;
+    border: 4.5px solid #414140;
     box-sizing: content-box;
  }
  
@@ -15,7 +15,7 @@
     height: 38.1px;
     top: 9px;
     left: 42.6px;
-    background: #e68847;
+    background: #575655;
     border-radius: 2.2px;
     transform-origin: 2.25px 37px;
     animation: progress-t59zy9 2s linear infinite;
@@ -28,7 +28,7 @@
     height: 24.6px;
     top: 22.4px;
     left: 42.6px;
-    background: #e68847;
+    background: #949393;
     border-radius: 2.2px;
     transform-origin: 2.25px 23.5px;
     animation: progress-t59zy9 12s linear infinite;
